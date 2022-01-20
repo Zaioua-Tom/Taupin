@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"  integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+      <link rel="stylesheet" href="design/default.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@100&display=swap" rel="stylesheet">
+      <script src="https://kit.fontawesome.com/da042e0cd0.js" crossorigin="anonymous"></script>
+
+      <title>Taupin Maçonnerie</title>
+  </head>
+  <body>
+    <!-- BARRE DE NAVIGATION -->
+    <nav class="navbar navbarColor navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand " href="index.html">
+          <img class="logo" src="Images/logoTaupin3.png" alt="logoTaupin"/>
+        </a>
+        <button class="navbar-toggler togglerBouton" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse navbarBoutonDropdown" id="navbarSupportedContent">
+          <ul class="navbar-nav policeNav">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle boutonNav" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Particulier
+              </a>
+              <ul class="dropdown-menu dropdownCustom" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="index2.html">Maçonnerie Générale</a></li>
+                <li><a class="dropdown-item" href="index3.html">Enduit façade</a></li>
+                <li><a class="dropdown-item" href="index4.html">Gros oeuvre</a></li>
+                <li><a class="dropdown-item" href="index7.html">Réalisations</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle boutonNav2" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Professionel
+              </a>
+              <ul class="dropdown-menu dropdownCustom" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="index5.html">Certifications</a></li>
+                <li><a class="dropdown-item" href="index6.html">Ressources</a></li>
+                <li><a class="dropdown-item" href="index7.html">Réalisations</a></li>
+                <li><a class="dropdown-item" href="index8.html">Partenaires</a></li>
+              </ul>
+            </li>
+          </ul> 
+        </div>
+      </div>
+    </nav>
+    <!--Header-->
+    <header>
+      <!-- CAROUSEL/DIAPORAMA --> 
+      <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner carouselHeight">
+          <div class="carousel-item active">
+            <img src="Images/batimenTaupin2.jpg" class="photoCarousel d-block" alt="photo du batiment TAUPIN">
+            <div class="container">
+              <div class="carousel-caption text-start">
+                <div class="carouselBackground">
+                  <p class="h1 titreCarousel">Taupin-Aires <br>Maçonnerie Toucy</p>
+                  <p class="h6 titreCarousel2">Nous mettons notre savoir-faire à votre service depuis 90 ans!</p>
+                </div>
+                <p><a class="btn btnCarousel"href="index9.html">Nous contacter</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="Images/chantier1.jpg" class="photoCarousel d-block" alt="photo de chantier">
+            <div class="container">
+              <div class="carousel-caption text-start">
+                <div class="carouselBackground">
+                  <p class="h1 titreCarousel">Chantier Public ou Particulier</p>
+                  <p class="h6 titreCarousel2">Nous vous apportons une solution à vos projets !</p>
+                </div>
+                <p><a class="btn btnCarousel" href="index9.html">Nous contacter</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="Images/chantier2.jpg" class="photoCarousel d-block" alt="photo de chantier">
+            <div class="container">
+              <div class="carousel-caption text-start">
+                <div class="carouselBackground">
+                  <p class="h1 titreCarousel">Un projet ? Parlons en!</p>
+                  <p class="h6 titreCarousel2">Une équipe à votre écoute pour vous accompagner!</p>
+                </div>
+                <p><a class="btn btnCarousel" href="index9.html">Nous contacter</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </header>           
+    <main>
+      <!--Slogan-->
+      <div class="card text-center">
+        <h1 class="card-header display-2 slogan">
+          Taupin - Aires accompagne vos projets depuis 1929!
+        </h1>
+      </div>
+      <!--Informations-->
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="titreCercle">
+            <i class="fas fa-file-invoice titreCercleIcon"></i>
+          </div>
+          <a data-bs-toggle="modal" data-bs-target="#informationMail">
+            <h2 class="d-flex justify-content-center btnModal">Devis gratuit</h2>
+          </a>
+          <p class="d-flex justify-content-center">Pour répondre au plus juste à vos attentes et vous apporter des solutions,<br>nos experts établissent un devis gratuitement uniquement sur place. </p>
+          <p class="d-flex justify-content-center"><a class="btn btnInfo"href="index9.html">Demander un devis</a></p>
+          <!-- Modal mail -->
+          <div class="modal fade" id="informationMail" tabindex="-1" aria-labelledby="informationMailTel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header modalCustom">
+                  <h5 class="modal-title" id="informationMailTel">Demande de devis</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <form class="mt-5" action="https://formsubmit.co/tomzaioua@gmail.com" method="post">
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="TaupinRadios" id="TaupinRadios1" value="option1" checked>
+                      <label class="form-check-label" for="TaupinRadios1">
+                        Mme
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="TaupinRadios" id="TaupinRadios2" value="option2">
+                      <label class="form-check-label" for="TaupinRadios2">
+                        M.
+                      </label>
+                    </div>
+                    <div>
+                      <label for="nom" class="form-label">Nom</label>
+                      <input type="text" name="nom" id="nom" class="form-control">
+                    </div>
+                    <p>
+                      <label for="subject" class="form-label"></label>
+                      <select name="subject" id="subject" class="form-select">
+                        <option value="devis">devis</option>
+                        <option value="renseignement">renseignements</option>
+                        <option value="rendez-vous">rendez-vous</option>
+                      </select>
+                    </p>
+                    <p>
+                      <input type="file" name="fichier" class="form-control">
+                    </p>
+                    <div>
+                      <label for="email" class="form-label">Adresse email</label>
+                      <div class="input-group">
+                        <span class="input-group-text">@</span>
+                        <input type="email" name="email" id="email" class="form-control">
+                      </div>   
+                    </div>
+                    <div class="form-group">
+                      <label for="TaupinFormControlTextarea">Votre message : </label>
+                      <textarea class="form-control" id="TaupinFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Envoyer</button>  
+                  </form>
+                </div>
+                <div class="modal-footer modalCustom">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+                  <a href="tel:0386440525" type="button" class="btn btn-primary">03 86 44 05 25</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <div class="titreCercle">
+            <i class="fas fa-industry titreCercleIcon"></i>
+          </div>
+          <a data-bs-toggle="modal" data-bs-target="#informationMap">
+            <h2 class="d-flex justify-content-center btnModal">Maçon-Façadier dans l'Yonne</h2>
+          </a>
+          <p class="d-flex justify-content-center"> 570 Av. du Général de Gaulle, 89130 Toucy <br>Lundi - Vendredi 9h-12h/14h-18h </p>
+          <p class="d-flex justify-content-center"><a class="btn btnInfo" href="tel:0386440525"> 03 86 44 05 25 </a></p>
+          <!-- Modal Itineraire-->
+          <div class="modal fade" id="informationMap" tabindex="-1" aria-labelledby="informationMapItineraire" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content modalCustom">
+                <div class="modal-header d-flex">
+                  <h5 class="modal-title" id="informationMapItineraire">Localisation à Toucy</h5>
+                  <div>
+                    <a href="https://goo.gl/maps/akwUc7sN9xgD3zBd9" type="button" class="btn btn-warning">Itinéraire</a>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                </div>
+                <div class="modal-body map-responsive">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2683.9519087929157!2d3.308817250777625!3d47.724182487739746!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47efb61aef905f6b%3A0x7fbb46c9ca620a27!2s570%20Av.%20du%20G%C3%A9n%C3%A9ral%20de%20Gaulle%2C%2089130%20Toucy!5e0!3m2!1sfr!2sfr!4v1639746569556!5m2!1sfr!2sfr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+                  <a href="tel:0386440525" type="button" class="btn btn-primary">03 86 44 05 25</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <div class="titreCercle">
+              <i class="far fa-address-card titreCercleIcon"></i>
+          </div>
+          <!-- Button trigger modal Renseignements-->
+          <a data-bs-toggle="modal" data-bs-target="#renseignements">
+            <h2 class="d-flex justify-content-center btnModal" >Entreprise Qualibat RGE</h2>
+          </a>
+          <p class="d-flex justify-content-center">Seule certification qui permet de bénéficier des aides de l'Etat.<br>
+            PTZ, Prime énergie,...</p>
+          <p class="d-flex justify-content-center"><a class="btn btnInfo" href="https://www.qualibat.com" target="_blank">En savoir plus</a></p>
+          <!-- Modal Renseignements-->
+          <div class="modal fade" id="renseignements" tabindex="-1" aria-labelledby="renseignementsRGE" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content modalCustom">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="renseignementsRGE">Pourquoi choisir une entreprise Qualibat?</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <div id="myCarousel2" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#myCarousel2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#myCarousel2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#myCarousel2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                      <button type="button" data-bs-target="#myCarousel2" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                      <button type="button" data-bs-target="#myCarousel2" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                      <button type="button" data-bs-target="#myCarousel2" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                      <button type="button" data-bs-target="#myCarousel2" data-bs-slide-to="6" aria-label="Slide 7"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="Images/truelle (1).png" class="photoCarouselModal d-block" alt="logo truelle">
+                        <div class="container justify-content-center">
+                          <div class="carousel-caption">
+                              <p class="h3 titreCarouselModal">ASSURÉE</p>
+                              <div class="infoCarouselModal">
+                                <p class="h5 ">* Assurance Responsabilité Travaux</p>
+                                <p class="h5 ">* Assurance Responsabilité Civile</p>
+                              </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="Images/truelle (1).png" class="photoCarouselModal d-block" alt="logo truelle">
+                        <div class="container justify-content-center">
+                          <div class="carousel-caption">
+                              <p class="h3 titreCarouselModal">FIABLE</p>
+                              <div class="infoCarouselModal">
+                                <p class="h5 "> * Chiffre d'affaire déclaré</p>
+                                <p class="h5 "> * Situation fiscale et sociale en règle</p>
+                              </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="Images/truelle (1).png" class="photoCarouselModal d-block" alt="logo truelle">
+                        <div class="container justify-content-center">
+                          <div class="carousel-caption">
+                            <p class="h3 titreCarouselModal">COMPÉTENTE</p>
+                            <div class="infoCarouselModal">
+                              <p class="h5 "> * Formation aux économies d'énergies</p>
+                              <p class="h5 "> * Attestation client sur la qualité du travail</p>
+                              <p class="h5"> * Réferences de chantier contrôlées sur site</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="carousel-item ">
+                        <img src="Images/truelle (1).png" class="photoCarouselModal d-block" alt="logo truelle">
+                        <div class="container justify-content-center">
+                          <div class="carousel-caption">
+                            <p class="h3 titreCarouselModal">RÉSPONSABLE</p>
+                            <div class="infoCarouselModal">
+                              <p class="h5 "> * Garantie des matériaux et matériels qu'elle met en oeuvre</p>
+                              <p class="h5 "> * Engagement sur la conformité finale des travaux</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="carousel-item ">
+                        <img src="Images/truelle (1).png" class="photoCarouselModal d-block" alt="logo truelle">
+                        <div class="container justify-content-center">
+                          <div class="carousel-caption">
+                            <p class="h3 titreCarouselModal">ACCOMPAGNEMENT</p>
+                            <div class="infoCarouselModal">
+                              <p class="h5 "> * Recommandations et conseils avant travaux</p>
+                              <p class="h5"> * Renseignement sur les garanties,les regles d'usage et de maintenance</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="Images/truelle (1).png" class="photoCarouselModal d-block" alt="logo truelle">
+                        <div class="container justify-content-center">
+                          <div class="carousel-caption">
+                            <p class="h3 titreCarouselModal">RECONNUE</p>
+                            <div class="infoCarouselModal">
+                              <p class="h5 "> * "RGE" seul label de qualité reconnu par les Pouvoirs Publics</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel2" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel2" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <Source:media>www.qualibat.com</Source:media>
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+                </div>
+              </div>
+            </div>
+          </div>      
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+      <!-- Carte chantier -->
+      <hr class="featurette-divider">
+      <div class="row featurette">
+        <div class="col-md-7 text-center displayCartePresentation">
+          <h2 class="featurette-heading mg-l-6">CHANTIER PUBLIC <br>
+            <span class="text-muted">90 ans de savoir faire en Bourgogne-Franche-Comté !</span></h2>
+          <p class="lead "> Depuis 1929 Taupin-Aires participe à l'amelioration du paysage urbain dans notre région.<br>
+                          Cette expérience et notre formation continue font de nous des experts du secteur public.<br>
+                          Nos spécialisations nous permettent d'intervenir sur des chantiers demandant des besoins spécifiques.
+          </p>
+          <div>
+            <a href="index5.html" class="btn btnColor" type="button">En savoir +</a>
+            <a class="btn btnCarousel" href="index9.html">Nous contacter</a>
+          </div>
+        </div> 
+          <div class="col-md-5">
+            <img src="Images/MN10.jpg" class="imageCartePresentation card-img-top" alt="image chantier">
+          </div>
+      </div>
+      <!-- Carte chantier -->
+      <hr class="featurette-divider">
+      <div class="row featurette">
+        <div class="col-md-7 order-md-2 text-center displayCartePresentation">
+          <h2 class="featurette-heading mg-l-6">SPÉCIALISTE FAÇADE<br>
+          <span class="text-muted">Enduit et hydrogommage </span></h2>
+          <p class="lead">Que ce soit pour un mur en brique ou en pierre, nous vous orientons vers la solution la plus adaptée.</p>
+          <div>
+            <a href="index3.html" class="btn btnColor" type="button">En savoir +</a>
+            <a class="btn btnCarousel" href="index9.html">Nous contacter</a>
+          </div>
+        </div>
+        <div class="col-md-5 order-md-1">
+          <img src="Images/MT 4.JPG" class="imageCartePresentation card-img-top" alt="image chantier">
+        </div>
+      </div>
+      <!-- Carte chantier -->
+      <hr class="featurette-divider">
+      <div class="row featurette">
+        <div class="col-md-7 text-center displayCartePresentation">
+          <h2 class="featurette-heading mg-l-6">CONSTRUCTION MAISON INDIVIDUELLE OU RÉNOVATION<br>
+            <span class="text-muted">Gros oeuvre</span></h2>
+          <p class="lead">En partenariat avec un maitre d'oeuvre et les différents corps de métier, nous réalisons la construction de votre maison!</p>
+          <div>
+            <a href="index7.html" class="btn btnColor" type="button">En savoir +</a>
+            <a class="btn btnCarousel" href="index9.html">Nous contacter</a>
+          </div>
+        </div>
+        <div class="col-md-5">
+          <img src="Images/MN 4.JPG" class="imageCartePresentation card-img-top" alt="image maison gros oeuvre">
+        </div>
+      </div> 
+      <!-- Carte chantier -->
+      <hr class="featurette-divider">
+      <div class="row featurette">
+        <div class="col-md-7 order-md-2 text-center displayCartePresentation">
+          <h2 class="featurette-heading mg-l-6">MAÇONNERIE GÉNÉRALE<br>
+            <span class="text-muted">Toutes créations en béton</span></h2>
+          <p class="lead">De l'ouverture d'un mur pour une baie vitrée à la création d'allée ou de terrasse, nous sommes là pour vous accompagner!</p>
+          <div>
+            <a href="index2.html" class="btn btnColor" type="button">En savoir +</a>
+            <a class="btn btnCarousel" href="index9.html">Nous contacter</a>
+          </div>
+        </div>
+        <div class="col-md-5 order-md-1">
+          <img src="Images/AD 2.jpg" class="imageCartePresentation card-img-top" alt="image creation allée">
+        </div>
+      </div>
+      <!-- Carte chantier -->
+      <hr class="featurette-divider">
+      <div class="row featurette">
+        <div class="col-md-7 text-center displayCartePresentation">
+          <h2 class="featurette-heading mg-l-6">CRÉATION DE PISCINE<br>
+          <span class="text-muted">intérieur ou extérieur</span></h2>
+          <p class="lead">Avec notre partenaire <a href="https://www.piscines-carrebleu.fr" target="_blank"><img src="Images/logocarrebleu_0.jpg" alt="logo piscine carée bleu"></a></p>
+        </div>
+        <div class="col-md-5">
+          <img src="Images/pool-g2d6c00743_1920.jpg" class="imageCartePresentation card-img-top" alt="image de piscine">
+        </div>
+      </div> 
+    </main>
+        <!-- Footer -->
+    <footer class="text-center text-lg-start bg-light text-muted">
+      <!-- Section: Social media -->
+      <section
+        class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+      >
+        <!-- Left -->
+        <div class="me-5 d-none d-lg-block">
+          <span>Vous pouvez nous suivre sur les réseaux sociaux : 
+        </div>
+        <!-- Left -->
+
+        <!-- Right -->
+        <div>
+          <a href="" class="me-4 text-reset">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="" class="me-4 text-reset">
+            <i class="fab fa-google"></i>
+          </a>
+          <a href="" class="me-4 text-reset">
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </div>
+        <!-- Right -->
+      </section>
+      <!-- Section: Social media -->
+
+      <!-- Section: Links  -->
+      <section class="">
+        <div class="container text-center text-md-start mt-4">
+          <!-- Grid row -->
+          <div class="row mt-3">
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <!-- Content -->
+              <h6 class="text-uppercase fw-bold mb-4">
+                Taupin Maçonnerie
+              </h6>
+              <p>
+              Taupin-Aires entreprise de maçonnerie à Toucy.<br>
+              Spécialiste béton et façade depuis 1929!
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">
+                Liens utiles
+              </h6>
+              <p>
+                <a href="#!" class="text-reset">Plan du site </a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Mentions légales</a>
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">
+                Partenaires
+              </h6>
+              <p>
+                <a href="#!" class="text-reset">Qualibat</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">piscines-carrebleu</a>
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">
+                Contact
+              </h6>
+              <p><i class="fas fa-home me-3"></i>
+                <a href="https://goo.gl/maps/akwUc7sN9xgD3zBd9 ">570 Avenue du Général De Gaulle</a>
+                <a class="d-flex justify-content-center" href="https://goo.gl/maps/akwUc7sN9xgD3zBd9 ">89130 Toucy</a>
+              </p>
+              <p>
+                <i class="fas fa-envelope me-3"></i>
+                <a href="mailto:batiment@sas-taupin.com">batiment@sas-taupin.com</a>
+              </p>
+              <p>
+                <i class="fas fa-phone me-3"></i>
+                <a href="tel:0386440525">0386440525</a>
+              </p>
+            </div>
+            <!-- Grid column -->
+          </div>
+          <!-- Grid row -->
+        </div>
+      </section>
+      <!-- Section: Links  -->
+      <!-- Copyright -->
+      <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+        © 2021 Copyright:
+        <a class="text-reset fw-bold" href="https:/www.taupinmaçonnerie.fr">taupin maçonnerie</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+  </body>
+</html>

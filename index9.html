@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"  integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+      <link rel="stylesheet" href="design/default.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@100&display=swap" rel="stylesheet">
+      <script src="https://kit.fontawesome.com/da042e0cd0.js" crossorigin="anonymous"></script>
+
+      <title>Taupin Maçonnerie</title>
+  </head>
+  <body>
+    <nav class="navbar navbarColor navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand " href="index.html">
+          <img class="logo" src="Images/logoTaupin3.png" alt="logoTaupin"/>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <div class="collapse navbar-collapse  d-flex justify-content-center sloganBnav "> 
+            <a> Taupin - Aires accompagne vos projets depuis 1929!</a>
+          </div>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link boutonNav" href="index.html"><i class="fas fa-home"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <main>
+      <div class="b-example-divider"></div>
+
+      <div class="container d-flex row mx-auto"> 
+        <h2 class="pb-2 border-bottom mt-5">CONTACT</h2>
+        <form class="mt-5 col-md-6 px-5" action="https://formsubmit.co/tomzaioua@gmail.com" method="post">
+          <div class="form-check ">
+            <input class="form-check-input" type="radio" name="TaupinRadios" id="TaupinRadios1" value="option1" checked>
+            <label class="form-check-label" for="TaupinRadios1">
+              Mme
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="TaupinRadios" id="TaupinRadios2" value="option2">
+            <label class="form-check-label" for="TaupinRadios2">
+              M.
+            </label>
+          </div>
+          <div>
+            <label for="nom" class="form-label">Nom</label>
+            <input type="text" name="nom" id="nom" class="form-control">
+          </div>
+          <p>
+            <label for="subject" class="form-label"></label>
+            <select name="subject" id="subject" class="form-select">
+              <option value="devis">devis</option>
+              <option value="renseignement">renseignements</option>
+              <option value="rendez-vous">rendez-vous</option>
+            </select>
+          </p>
+          <p>
+            <input type="file" name="fichier" class="form-control">
+          </p>
+          <div>
+            <label for="email" class="form-label">Adresse email</label>
+            <div class="input-group">
+              <span class="input-group-text">@</span>
+              <input type="email" name="email" id="email" class="form-control">
+            </div>   
+          </div>
+          <div class="form-group">
+            <label for="TaupinFormControlTextarea">Votre message : </label>
+            <textarea class="form-control" id="TaupinFormControlTextarea1" rows="3"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary mt-4">Envoyer</button>  
+        </form>
+        <div class="col-md-3 map-responsive mt-5">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2683.9519087929157!2d3.308817250777625!3d47.724182487739746!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47efb61aef905f6b%3A0x7fbb46c9ca620a27!2s570%20Av.%20du%20G%C3%A9n%C3%A9ral%20de%20Gaulle%2C%2089130%20Toucy!5e0!3m2!1sfr!2sfr!4v1639746569556!5m2!1sfr!2sfr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <div class="col-md-3 text-center mt-5 px-5">
+          <ul class="list-unstyled mb-0">
+              <li><i class="fas fa-map-marker-alt fa-2x"></i>
+                  <p>570 Av. du Général de Gaulle, 89130 Toucy </p>
+              </li>
+
+              <li><i class="fas fa-phone mt-4 fa-2x"></i>
+                  <p><a href="tel:0386440525"> 03 86 44 05 25 </a></p>
+              </li>
+
+              <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                  <p><a href="maito=batiment@sas-taupin.com">batiment@sas-taupin.com</a></p>
+              </li>
+
+              <li><i class="fas fa-clock mt-4 fa-2x"></i>
+                <p>Lundi au Vendredi</p>
+                <p>9h-12h / 14h-18h</p>
+            </li>
+          </ul>
+      </div>
+      </div>         
+    </main>  
+    <footer class=" bg-light text-muted">
+      <!-- Copyright -->
+      <div class="text-center p-5" style="background-color: rgba(0, 0, 0, 0.05);">
+        © 2021 Copyright:
+        <a class="text-reset fw-bold" href="https:/www.taupinmaçonnerie.fr">Taupin - Aires maçonnerie</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>   
+  </body>
+</html>

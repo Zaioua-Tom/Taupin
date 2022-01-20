@@ -1,0 +1,417 @@
+*{
+    margin: 0px;
+    padding: 0px;   
+}
+body{
+    width: 100%;
+    max-width: 1900px;
+    margin: auto;
+}
+/*Valeurs générales
+********************/
+@font-face {
+    font-family: "champagne";
+    src: url('cac_champagne.ttf') format('truetype');
+   }
+.btnColor{
+    background:linear-gradient(#0E56A0,#758BC3 );
+    transition: 0.3s;
+    color: #F8b839;
+    box-shadow: 0 0 5px #758BC3;
+}
+.btnColor:hover{
+    border: solid 1px #F8b839;
+    transform: scale(0.8);
+}
+/*logo client*/
+.cardClientDimension{
+    height: 100px;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+
+.bgImageCardClient1{
+    background-image: url('../Images/logo_domanys.png');   
+}
+.bgImageCardClient2{
+    background-image: url('../Images/Logo_dep_yonnel.png');
+}
+.bgImageCardClient3{
+    background-image: url('../Images/logo_bourgfrc.png');
+}
+.bgImageCardClient4{
+    background-image: url('../Images/logo_oah.png');
+}
+.bgImageCardClient5{
+    background-image: url('../Images/logo_yonneDev.png');
+}
+.bgImageCardClient6{
+    background-image: url('../Images/logo_mon_logis.png');
+}
+/*Version Tablette
+*********************/
+@media screen and (max-width : 1400px){
+    .cardClientDimension{
+        width: 120%;
+        margin: 0 10px 20px 0;
+    }
+}
+    
+/*Version Mobile
+*******************/
+@media screen and (max-width : 991px){
+    .togglerBouton{
+        border: solid 1px #F8b839 !important;
+    }
+    .togglerBouton:focus{
+        outline: #F8b839;
+        color:#F8b839 !important;
+    }
+    .boutonNav{
+        border-radius: 0;
+        background: none ;
+        color: #F8b839!important;
+    }
+    .boutonNav2{
+        margin-left: 0;
+        background: none ;
+        color: #F8b839!important;
+        
+    }
+}
+
+
+/*********************************************Page d'accueil********************************************************/
+
+/*Barre de naviguation page d'accueil
+***************************************/
+.navbarColor{
+    background:linear-gradient(#0E56A0,#758BC3 );
+}
+.logo{
+    border: solid 3px black;
+}
+.navbarBoutonDropdown{
+    justify-content: flex-end;
+}
+.dropdownCustom{
+    background:linear-gradient(#F8B839, rgb(236, 221, 153) );
+}
+.policeNav{
+    font-weight: bold;
+}
+.boutonNav{
+    margin-right: 10px;
+    border-radius: 5px;
+    border: solid 1px #F8b839;
+    color: #F8b839!important;
+    transition-duration: 0.3s;
+}
+.boutonNav:hover{
+    background:linear-gradient(#fff, #F8b839);
+    color: #0E56A0!important;
+    transform: scale(0.9);
+}
+
+.boutonNav2{
+    margin-left: 10px;
+    border-radius: 5px;
+    border: solid 1px #F8b839;
+    color: #F8b839!important;
+    transition-duration: 0.3s;
+    
+}
+.boutonNav2:hover{
+    background:linear-gradient(#fff, #F8b839);
+    color: #0E56A0!important;
+    transform: scale(0.9);
+}
+
+/*Version mobile
+*****************/
+@media screen and (max-width : 991px){
+    .togglerBouton{
+        border: solid 1px #F8b839 !important;
+    }
+    .togglerBouton:focus{
+        outline: #F8b839;
+        color:#F8b839 !important;
+    }
+    .boutonNav{
+        border-radius: 0;
+        background: none ;
+        color: #F8b839!important;
+    }
+    .boutonNav2{
+        margin-left: 0;
+        background: none ;
+        color: #F8b839!important;
+        
+    }
+    
+}
+/*header*/
+
+/*Carousel
+***********/
+.photoCarousel{
+    object-fit: cover;
+    height: 300px;
+    min-width: 100%;
+}
+.carouselBackground{
+    background-color: rgba(117, 139, 195, 0.5);
+    width: 50%;
+    border-radius: 10px;
+}
+.titreCarousel{
+    text-align: center;
+    color: #F8B839;
+}
+.titreCarousel2{
+    text-align: center;
+    font-size: 20px;
+}
+
+.btnCarousel{
+    background-color: #F8b839;
+    box-shadow: 0 0 5px floralwhite;
+    color: #0E56A0!important;
+}
+
+/*Slogan
+************/
+.slogan{
+    font-family: 'champagne', arial; 
+    box-shadow: 0 0 32px black;  
+}
+/*Cercle Info
+*******************/
+.titreCercle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px auto auto auto;
+    background:linear-gradient(#0E56A0,#758BC3 );
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+.titreCercleIcon{
+    color: #F8b839;
+    font-size: 30px;
+}
+.btnInfo{
+    background-color: #F8b839;
+    box-shadow: 0 0 20px #0E56A0;
+    color: #0E56A0!important;
+}
+.btnInfo:hover{
+    background-color: #fbbf47;
+}
+.btnModal{
+    cursor: pointer;
+    transition: 0.3s;
+ }
+ .btnModal:hover{
+     transform: scale(1.1);
+ }
+ .modalCustom{
+     background-color: rgb(248, 248, 248);   
+ }
+ .map-responsive {
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    
+}   
+.map-responsive iframe {
+    left:0;
+    top:0;
+    height:70%;
+    width:100%;
+    position:absolute;
+}
+.photoCarouselModal{
+    width: 500px;
+    max-width: 100%;
+    object-fit: cover;
+}
+.titreCarouselModal{
+    margin-top:-300px;
+    color:#0E56A0;
+    font-weight: bold;
+    
+}
+.infoCarouselModal{
+    background-color: rgba(221, 221, 221, 0.746);
+    color:red;
+    font-weight: bold;
+    font-style: italic;
+    border-radius: 10px;
+    margin: auto;
+}
+
+/*Carte de presentation
+**************************/
+
+.imageCartePresentation{
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+}
+
+.displayCartePresentation{
+    margin-top: 100px;
+}
+/**********************************************Page petite maçonnerie************************************************/
+
+/*barre de navigation*/
+
+.sloganBnav{
+    font-family: 'champagne', arial;
+    font-size: 50px;
+    font-weight: 300px;
+}
+
+/* cartes de présentation
+***************************/
+
+.rounded-5 { border-radius: 1rem; }
+
+.bgImageCard{
+    background-image: url('../Images/table-g2bccdfd23_1920.jpg');
+}
+.bgImageCard3{
+    background-image: url('../Images/MN\ 1.JPG');
+}
+.bgImageCard2{
+    background-image: url('../Images/piscineindex2.jpg');
+}
+.card-cover {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.btnCardPresentation{
+    background-color: #F8b839;
+    box-shadow: 0 0 5px floralwhite;
+    color: #0E56A0!important;
+}
+
+/**********************************************Ravalement Façade**************************************/
+
+.bgImageCard4{
+    background-image: url('../Images/enduit.jpg');
+}
+.bgImageCard5{
+    background-image: url('../Images/murPierre.jpg');
+}
+.bgImageCard6{
+    background-image: url('../Images/20180608_Isolation_Exterieure_01.jpg');
+}
+
+/*******************************************Gros oeuvre*******************************************************/
+
+.bgImageCard7{
+    background-image: url('../Images/IMG_8824.jpg');
+}
+.bgImageCard8{
+    background-image: url('../Images/MN\ 2.JPG');
+}
+.bgImageCard9{
+    background-image: url('../Images/wall-gb20397e7f_1920.png');
+}
+
+.tailleCarteModal{
+    height: 150px;
+    transform-origin: 65% 75%;  
+    transition: transform 1s, filter .5s ease-out;
+    cursor: pointer;
+}
+.tailleCarteModal:active{
+    transform: scale(2);
+}
+
+.modalOuvertureList{
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: larger;
+    background-color: rgba(117, 139, 195, 0.5);
+    border-radius: 10px;
+}
+.modalOuvertureListDetail{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.ModalImageOuvrage{
+    width: 100%;
+    height: 100px;
+}
+/**********************************Certification*****************************************/
+
+.bgImageCard10{
+    background-image: url('../Images/ss4.jpg');
+}
+.bgImageCard11{
+    background-image: url('../Images/logo-feebat.jpg');
+}
+.bgImageCard12{
+    background-image: url('../Images/logo-caces-nacelle.jpg');
+    
+}
+.bgImageCard13{
+    background-image: url('../Images/sst.jpg');
+}
+.bgImageCard14{
+    background-image: url('../Images/echaffaudage.jpg');
+}
+.bgImageCard15{
+    background-image: url('../Images/aipr.jpg');
+}
+
+/*********************************************Ressources*********************************************************/
+
+.bgImageCard16{
+    background-image: url('../Images/camion\ benne.jpg');
+}
+.bgImageCard17{
+    background-image: url('../Images/persoChantier.jpg');
+}
+.bgImageCard18{
+    background-image: url('../Images/chariot-elevateur-telescopique.jpg'); 
+     
+}
+.bgImageCard19{
+    background-image: url('../Images/jointoyer.jpg');
+}
+.bgImageCard20{
+    background-image: url('../Images/camion\ betonniere.jpg');
+}
+.bgImageCard21{
+    background-image: url('../Images/cabane-de-chantier-6m.jpg');
+}
+/***************************réalisation*******************************************/
+
+.photoAlbum{
+    width: 100%;
+    height: 225px;
+}
+
+
+/*****************************Partenaires********************************************/
+
+
+.ColorTextPartenaire{
+    background-color: #004E8F;
+}
+.bgImageCard23{
+    background-image: url('../Images/la\ maison\ des\ travaux.jpg');
+}
+.bgImageCard24{
+    background-image: url('../Images/');
+}
