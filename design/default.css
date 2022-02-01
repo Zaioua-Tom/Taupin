@@ -1,12 +1,8 @@
-*{
-    margin: 0px;
-    padding: 0px;   
-}
+
 body{
     width: 100%;
     max-width: 1900px;
-    margin: auto;
-}
+} 
 /*Valeurs générales
 ********************/
 @font-face {
@@ -24,13 +20,21 @@ body{
     transform: scale(0.8);
 }
 /*logo client*/
-.cardClientDimension{
-    height: 100px;
-    background-repeat: no-repeat;
-    object-fit: cover;
+.gridContainer{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 10px;
+    justify-content: center;
+    
 }
-
-
+.logoClient{
+    width: 120px;
+    height: 60px;
+    border: 1px solid black;
+    border-radius: 5px;
+    object-fit: cover;
+    margin: 10px;
+}
 .bgImageCardClient1{
     background-image: url('../Images/logo_domanys.png');   
 }
@@ -261,10 +265,32 @@ body{
     width: 500px;
     height: 500px;
     object-fit: cover;
+    margin-left: 100px;
 }
 
 .displayCartePresentation{
     margin-top: 100px;
+}
+/*Version mobile
+*****************/
+@media screen and (max-width : 991px){
+    
+    .divPresentation{
+        width: 300px;
+        height: 300px;
+    }
+    
+    
+    .imageCartePresentation{
+        width: 374px;
+        height: 300px;
+        object-fit: cover;
+        margin-left: 0;
+        padding: 10px;
+        min-width: 100%;
+
+    }
+
 }
 /**********************************************Page petite maçonnerie************************************************/
 
