@@ -19,7 +19,7 @@
       <div class="container">
         <a class="navbar-brand " href="index.html">
           <!-- Image du logo -->
-          <img class="logo" src="Images/logoTaupin3.png" alt="logoTaupin"/>
+          <img class="logo" src="Images/Accueil/logoTaupin3.png" alt="logoTaupin"/>
         </a>
         <button class="navbar-toggler togglerBouton" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -65,7 +65,7 @@
         <div class="carousel-inner carouselHeight">
           <div class="carousel-item active">
             <!-- 1ere Photo du caroussel -->
-            <img src="Images/batimenTaupin2.jpg" class="photoCarousel d-block" alt="photo du batiment TAUPIN">
+            <img src="./Images/Accueil/Caroussel/caroussel1.jpg" class="photoCarousel d-block" alt="photo du batiment TAUPIN">
             <div class="container">
               <div class="carousel-caption text-start">
                 <div class="carouselBackground">
@@ -78,7 +78,7 @@
           </div>
           <div class="carousel-item">
             <!-- 2eme Photo du caroussel -->
-            <img src="Images/chantier1.jpg" class="photoCarousel d-block" alt="photo de chantier">
+            <img src="./Images/Accueil/Caroussel/caroussel2.jpg" class="photoCarousel d-block" alt="photo de chantier">
             <div class="container">
               <div class="carousel-caption text-start">
                 <div class="carouselBackground">
@@ -91,7 +91,7 @@
           </div>
           <div class="carousel-item">
             <!-- 3eme Photo du caroussel -->
-            <img src="Images/chantier2.jpg" class="photoCarousel d-block" alt="photo de chantier">
+            <img src="./Images/Accueil/Caroussel/caroussel3.jpg" class="photoCarousel d-block" alt="photo de chantier">
             <div class="container">
               <div class="carousel-caption text-start">
                 <div class="carouselBackground">
@@ -141,25 +141,34 @@
                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                  <form class="mt-5" action="https://formsubmit.co/tomzaioua@gmail.com" method="post">
+                  <form class="mt-5" action="https://formsubmit.co/batiment@sas-taupin.com" method="post">
+                    
                     <select class="form-select" aria-label="Select gender ">
                       <option value="Madame">Madame</option>
                       <option value="Monsieur">Monsieur</option>
                     </select>
+                    <div>
                       <label for="nom" class="form-label">Nom</label>
                       <input type="text" name="nom" id="nom" class="form-control">
                     </div>
                     <p>
+                      <label for="client" class="form-label"></label>
+                      <select name="client" id="client" class="form-select">
+                        <option selected>Je suis un : </option>
+                        <option value="Particulier">Particulier</option>
+                        <option value="Professionel">Professionel</option>
+                      </select>
+                    </p>
+                    <p>
                       <label for="subject" class="form-label"></label>
                       <select name="subject" id="subject" class="form-select">
+                        <option selected>Je souhaite être recontacté pour un : </option>
                         <option value="devis">devis</option>
                         <option value="renseignement">renseignements</option>
                         <option value="rendez-vous">rendez-vous</option>
                       </select>
                     </p>
-                    <p>
-                      <input type="file" name="fichier" class="form-control">
-                    </p>
+                    
                     <div>
                       <label for="email" class="form-label">Adresse email</label>
                       <div class="input-group">
@@ -167,11 +176,16 @@
                         <input type="email" name="email" id="email" class="form-control">
                       </div>   
                     </div>
-                    <div class="form-group">
-                      <label for="TaupinFormControlTextarea1">Votre message : </label>
-                      <textarea class="form-control" id="TaupinFormControlTextarea1" rows="3"></textarea>
+
+                    <div>
+                      <label for="phone" class="form-label">Numéro Telephone</label>
+                      <div class="input-group">
+                        <span class="input-group-text">📱 </span>
+                        <input type="number" name="phone" id="phone" class="form-control">
+                      </div>   
                     </div>
-                    <button type="submit" class="btn btn-primary">Envoyer</button>  
+
+                    <button type="submit" class="btn btn-primary mt-3">Envoyer</button>  
                   </form>
                 </div>
                 <div class="modal-footer modalCustom">
@@ -330,7 +344,6 @@
                   </div>
                 </div>
                 <div class="modal-footer">
-                  <Source:media>www.qualibat.com</Source:media>
                   <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
                 </div>
               </div>
@@ -351,7 +364,7 @@
           </div>
         </div>
         <div class="col-md-5">
-          <img src="Images/MN 4.JPG" class="imageCartePresentation card-img-top" alt="image maison gros oeuvre">
+          <img src="Images/Accueil/Presentation/constructions_neuves.JPG" class="imageCartePresentation card-img-top" alt="image maison gros oeuvre">
         </div>
       </div>
       <!-- Carte chantier 2°TRAVAUX DE RENOVATION-->
@@ -367,7 +380,7 @@
           </div>
         </div>
         <div class="col-md-5">
-          <img src="Images/AD 2.jpg" class="imageCartePresentation card-img-top" alt="image creation allée">
+          <img src="Images/Accueil/Presentation/travaux_renovation.jpg" class="imageCartePresentation card-img-top" alt="image creation allée">
         </div>
       </div>
       <!-- Carte chantier 3°SPÉCIALISTE FAÇADES-->
@@ -383,7 +396,7 @@
           </div>
         </div>
         <div class="col-md-5 order-md-2">
-          <img src="Images/MT 4.JPG" class="imageCartePresentation card-img-top" alt="image chantier">
+          <img src="Images/Accueil/Presentation/specialiste_facade.JPG" class="imageCartePresentation card-img-top" alt="image chantier">
         </div>
       </div> 
       <!-- Carte chantier 4°CHANTIER PUBLICS ET PRIVÉS-->
@@ -400,7 +413,7 @@
           </div>
         </div> 
           <div class="col-md-5 order-md-1">
-            <img src="Images/MN10.jpg" class="imageCartePresentation card-img-top" alt="image chantier">
+            <img src="Images/Accueil/Presentation/chantier_public.jpg" class="imageCartePresentation card-img-top" alt="image chantier">
           </div>
       </div>
       
@@ -410,10 +423,10 @@
         <div class="col-md-7 text-center displayCartePresentation">
           <h2 class="featurette-heading mg-l-6">CRÉATION DE PISCINE<br>
           <span class="text-muted">Intérieur ou Extérieur</span></h2>
-          <p class="lead">Avec notre partenaire <a href="https://www.piscines-carrebleu.fr" target="_blank"><img src="Images/logocarrebleu_0.jpg" alt="logo piscine carée bleu"></a></p>
+          <p class="lead">Avec notre partenaire <a href="https://www.piscines-carrebleu.fr/pisciniste/constructeur-piscine-magasin-troyes-auxerre/" target="_blank"><img src="Images/Accueil/logocarrebleu_0.jpg" alt="logo piscine carée bleu"></a></p>
         </div>
         <div class="col-md-5 ">
-          <img src="Images/pool-g2d6c00743_1920.jpg" class="imageCartePresentation card-img-top" alt="image de piscine">
+          <img src="Images/Accueil/Presentation/piscine_presentation.jpg" class="imageCartePresentation card-img-top" alt="image de piscine">
         </div>
       </div> 
     </main>
@@ -472,21 +485,7 @@
             </div>
             <!-- Grid column -->
 
-            <!-- Grid column -->
-            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-              <!-- Links -->
-              <h6 class="text-uppercase fw-bold mb-4">
-                Partenaires
-              </h6>
-              <p>
-                <a href="#!" class="text-reset">Qualibat</a>
-              </p>
-              <p>
-                <a href="#!" class="text-reset">piscines-carrebleu</a>
-              </p>
-            </div>
-            <!-- Grid column -->
-
+            
             <!-- Grid column -->
             <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
               <!-- Links -->

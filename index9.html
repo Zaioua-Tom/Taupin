@@ -17,7 +17,7 @@
     <nav class="navbar navbarColor navbar-expand-lg navbar-light bg-light">
       <div class="container">
         <a class="navbar-brand " href="index.html">
-          <img class="logo" src="Images/logoTaupin3.png" alt="logoTaupin"/>
+          <img class="logo" src="Images/Accueil/logoTaupin3.png" alt="logoTaupin"/>
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -53,10 +53,19 @@
             <input type="text" name="nom" id="nom" class="form-control">
           </div>
           <p>
+            <label for="client" class="form-label"></label>
+            <select name="client" id="client" class="form-select">
+              <option selected>Je suis un : </option>
+              <option value="Particulier">Particulier</option>
+              <option value="Professionel">Professionel</option>
+            </select>
+          </p>
+          <p>
             <label for="subject" class="form-label"></label>
             <select name="sujet" id="subject" class="form-select">
+              <option selected>Je souhaite être recontacté pour un : </option>
               <option value="devis">devis</option>
-              <option value="renseignement">renseignements</option>
+              <option value="renseignement">renseignement</option>
               <option value="rendez-vous">rendez-vous</option>
             </select>
           </p>
@@ -68,9 +77,13 @@
             </div>   
           </div>
           <div>
-            <label for="TaupinFormControlTextarea1" class="form-label">Votre message : </label>
-            <textarea class="form-control" id="TaupinFormControlTextarea1" rows="3"></textarea>
+            <label for="phone" class="form-label">Numéro Telephone</label>
+            <div class="input-group">
+              <span class="input-group-text">📱 </span>
+              <input type="number" name="phone" id="phone" class="form-control">
+            </div>   
           </div>
+          
           <button type="submit" class="btn btn-primary mt-4">Envoyer</button>  
         </form>
         <div class="col-md-3 map-responsive mt-5">

@@ -292,7 +292,7 @@ body{
     }
 
 }
-/**********************************************Page petite maçonnerie************************************************/
+/**********************************************Page Travaux_reno************************************************/
 
 /*barre de navigation*/
 
@@ -302,20 +302,24 @@ body{
     font-weight: 300px;
 }
 
-/* cartes de présentation
+/* cartes de présentation 
 ***************************/
 
 .rounded-5 { border-radius: 1rem; }
 
+/*Terrasse*/
 .bgImageCard{
-    background-image: url('../Images/table-g2bccdfd23_1920.jpg');
+    background-image: url('../Images/Particulier/Travaux_reno/Terrasse/terrasse_presentation.jpg');
 }
-.bgImageCard3{
-    background-image: url('../Images/MN\ 1.JPG');
-}
+/*Piscine*/
 .bgImageCard2{
-    background-image: url('../Images/piscineindex2.jpg');
+    background-image: url('../Images/Particulier/Travaux_reno/Piscine/piscineindex2.jpg');
 }
+/*Allée*/
+.bgImageCard3{
+    background-image: url('../Images/Particulier/Travaux_reno/Allee/allée_presentation.JPG');
+}
+
 .card-cover {
   background-repeat: no-repeat;
   background-position: center center;
@@ -329,27 +333,32 @@ body{
 }
 
 /**********************************************Ravalement Façade**************************************/
-
+/*Enduit*/
 .bgImageCard4{
-    background-image: url('../Images/enduit.jpg');
+    background-image: url('../Images/Particulier/Enduit_facade/enduit.jpg');
 }
+/*Mur Pierre*/
 .bgImageCard5{
-    background-image: url('../Images/murPierre.jpg');
+    background-image: url('../Images/Particulier/Enduit_facade/murPierre.jpg');
 }
+/*ITE*/
 .bgImageCard6{
-    background-image: url('../Images/ite_toucy.jpg');
+    background-image: url('../Images/Particulier/Enduit_facade/ite_toucy.jpg');
 }
 
 /*******************************************Gros oeuvre*******************************************************/
 
+/*Ouvrage Beton*/
 .bgImageCard7{
-    background-image: url('../Images/IMG_8824.jpg');
+    background-image: url('../Images/Particulier/Gros_oeuvre/Ouvrage_beton_presentation.jpg');
 }
+/*Maison*/
 .bgImageCard8{
-    background-image: url('../Images/MN\ 2.JPG');
+    background-image: url('../Images/Particulier/Gros_oeuvre/Maison_Construction_Presentation.JPG');
 }
+/*Ouverture*/
 .bgImageCard9{
-    background-image: url('../Images/ouverture_presentation.jpg');
+    background-image: url('../Images/Particulier/Gros_oeuvre/ouverture_presentation.jpg');
 }
 
 .tailleCarteModal{
@@ -381,46 +390,26 @@ body{
 /**********************************Certification*****************************************/
 
 .bgImageCard10{
-    background-image: url('../Images/ss4.jpg');
+    background-image: url('../Images/Professionel/Certifications/ss4.jpg');
 }
 .bgImageCard11{
-    background-image: url('../Images/logo-feebat.jpg');
+    background-image: url('../Images/Professionel/Certifications/logo-feebat.jpg');
 }
 .bgImageCard12{
-    background-image: url('../Images/logo-caces-nacelle.jpg');
+    background-image: url('../Images/Professionel/Certifications/logo-caces-nacelle.jpg');
     
 }
 .bgImageCard13{
-    background-image: url('../Images/sst.jpg');
+    background-image: url('../Images/Professionel/Certifications/sst.jpg');
 }
 .bgImageCard14{
-    background-image: url('../Images/echaffaudage.jpg');
+    background-image: url('../Images/Professionel/Certifications/echaffaudage.jpg');
 }
 .bgImageCard15{
-    background-image: url('../Images/aipr.jpg');
+    background-image: url('../Images/Professionel/Certifications/aipr.jpg');
 }
 
-/*********************************************Ressources*********************************************************/
 
-.bgImageCard16{
-    background-image: url('../Images/camion\ benne.jpg');
-}
-.bgImageCard17{
-    background-image: url('../Images/persoChantier.jpg');
-}
-.bgImageCard18{
-    background-image: url('../Images/chariot-elevateur-telescopique.jpg'); 
-     
-}
-.bgImageCard19{
-    background-image: url('../Images/jointoyer.jpg');
-}
-.bgImageCard20{
-    background-image: url('../Images/camion\ betonniere.jpg');
-}
-.bgImageCard21{
-    background-image: url('../Images/cabane-de-chantier-6m.jpg');
-}
 /***************************réalisation*******************************************/
 
 .photoAlbum{
@@ -435,9 +424,4 @@ body{
 .ColorTextPartenaire{
     background-color: #004E8F;
 }
-.bgImageCard23{
-    background-image: url('../Images/la\ maison\ des\ travaux.jpg');
-}
-.bgImageCard24{
-    background-image: url('../Images/');
-}
+
