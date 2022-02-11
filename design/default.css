@@ -271,9 +271,10 @@ body{
 .displayCartePresentation{
     margin-top: 100px;
 }
-/*Version mobile
+
+/*tablette
 *****************/
-@media screen and (max-width : 991px){
+@media screen and (max-width : 1400px){
     
     .divPresentation{
         width: 300px;
@@ -292,6 +293,27 @@ body{
     }
 
 }
+/* Version mobile
+****************/
+@media screen and (max-width : 991px){
+    
+    .divPresentation{
+        width: 300px;
+        height: 300px;
+    }
+    
+    
+    .imageCartePresentation{
+        width: 374px;
+        height: 300px;
+        object-fit: cover;
+        margin-left: 0;
+        padding: 10px;
+        min-width: 100%;
+
+    }
+
+} 
 /**********************************************Page Travaux_reno************************************************/
 
 /*barre de navigation*/
@@ -307,17 +329,17 @@ body{
 
 .rounded-5 { border-radius: 1rem; }
 
-/*Terrasse*/
+/*Amenagenement*/
 .bgImageCard{
-    background-image: url('../Images/Particulier/Travaux_reno/Terrasse/terrasse_presentation.jpg');
+    background-image: url('../Images/Particulier/Travaux_reno/Aménagement/Longere.jpg');
 }
 /*Piscine*/
 .bgImageCard2{
-    background-image: url('../Images/Particulier/Travaux_reno/Piscine/piscineindex2.jpg');
+    background-image: url('../Images/Particulier/Travaux_reno/Piscine/piscine_illustration.jpg');
 }
-/*Allée*/
+/*Ouverture*/
 .bgImageCard3{
-    background-image: url('../Images/Particulier/Travaux_reno/Allee/allée_presentation.JPG');
+    background-image: url('../Images/Particulier/Travaux_reno/Ouverture/ouverture_presentation.jpg');
 }
 
 .card-cover {
@@ -331,19 +353,25 @@ body{
     box-shadow: 0 0 5px floralwhite;
     color: #0E56A0!important;
 }
+.textCard{
+    margin-top: 100px;
+    font-weight: bold;
+    background-color: rgba(117, 139, 195, 0.5);
+    border-radius: 10px;
+    
 
+}
 /**********************************************Ravalement Façade**************************************/
 /*Enduit*/
 .bgImageCard4{
     background-image: url('../Images/Particulier/Enduit_facade/enduit.jpg');
 }
-/*Mur Pierre*/
-.bgImageCard5{
-    background-image: url('../Images/Particulier/Enduit_facade/murPierre.jpg');
-}
 /*ITE*/
 .bgImageCard6{
     background-image: url('../Images/Particulier/Enduit_facade/ite_toucy.jpg');
+}
+.bgCard{
+    background-color: rgba(128, 128, 128, 0.589);
 }
 
 /*******************************************Gros oeuvre*******************************************************/
